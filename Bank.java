@@ -101,8 +101,7 @@ public class Bank {
             JOptionPane.showMessageDialog(null, accountsInfo.toString());
         }
     }
-
-    public void save() {
+public void save() {
         try {
             FileOutputStream fos = new FileOutputStream("BankRecord.ser");
             ObjectOutputStream out = new ObjectOutputStream(fos);
@@ -137,3 +136,4 @@ public class Bank {
     }
 }
    
+    
